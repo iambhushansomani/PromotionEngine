@@ -9,7 +9,7 @@ namespace PromotionEngine.Implementations
     {
         public int GetPriceByType(string productid)
         {
-            int price = 0;
+            int price=0;
             switch (productid)
             {
                 case "A":
@@ -37,7 +37,52 @@ namespace PromotionEngine.Implementations
             int countB = 0;
             int countC = 0;
             int countD = 0;
-            return 0;
+
+            foreach (Product product in products)
+            {
+                if (product.id == "A" || product.id == "a")
+                {
+                    countA = countA + 1;
+                }
+                if (product.id == "B" || product.id == "b")
+                {
+                    countB = countB + 1;
+                }
+                if (product.id == "C" || product.id == "c")
+                {
+                    countC = countC + 1;
+                }
+                if (product.id == "D" || product.id == "d")
+                {
+                    countD = countD + 1;
+                }
+            }
+            Product objProduct = new Product();
+            int totalpriceofA = (countA / 3) * 130 + (countA % 3 * GetPriceByType("A"));
+            int totalpriceofB = (countB / 2) * 45 + (countB % 2 * GetPriceByType("B"));
+            int totalpriceofC=0;
+            int totalpriceofD = 0;
+            if (countD == 0)
+            {
+                totalpriceofC = (countC * GetPriceByType("C"));
+            }
+            else {
+                if(countC>countD)
+                { 
+                totalpriceofC = ((countC-countD) * GetPriceByType("C"));
+                totalpriceofD = (countD * 30);
+                }
+                if(countC == countD)
+                    totalpriceofD = (countD * 30);
+                if (countC < countD)
+                {
+                    totalpriceofD = ((countD - countC) * GetPriceByType("D"));
+                    totalpriceofC = (countC * 30);
+                }
+            }
+            
+
+            return (totalpriceofA + totalpriceofB + totalpriceofC + totalpriceofD);
         }
     }
 }
