@@ -8,7 +8,6 @@ namespace PromotionEngine
     {
         static void Main(string[] args)
         {
-            
         }
     }
 }

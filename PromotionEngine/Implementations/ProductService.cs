@@ -5,7 +5,7 @@ using PromotionEngine.Interfaces;
 
 namespace PromotionEngine.Implementations
 {
-    class ProductService : IProductInterface
+   public class ProductService : IProductInterface
     {
         public int GetPriceByType(string productid)
         {
