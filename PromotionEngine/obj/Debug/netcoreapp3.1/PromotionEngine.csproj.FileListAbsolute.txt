@@ -11,3 +11,16 @@ D:\TTL Code\PromotionEngine\PromotionEngine\bin\Debug\netcoreapp3.1\PromotionEng
 D:\TTL Code\PromotionEngine\PromotionEngine\obj\Debug\netcoreapp3.1\PromotionEngine.dll
 D:\TTL Code\PromotionEngine\PromotionEngine\obj\Debug\netcoreapp3.1\PromotionEngine.pdb
 D:\TTL Code\PromotionEngine\PromotionEngine\obj\Debug\netcoreapp3.1\PromotionEngine.genruntimeconfig.cache
+D:\TTL Code\Promotion_Engine\PromotionEngine\bin\Debug\netcoreapp3.1\PromotionEngine.exe
+D:\TTL Code\Promotion_Engine\PromotionEngine\bin\Debug\netcoreapp3.1\PromotionEngine.deps.json
+D:\TTL Code\Promotion_Engine\PromotionEngine\bin\Debug\netcoreapp3.1\PromotionEngine.runtimeconfig.json
+D:\TTL Code\Promotion_Engine\PromotionEngine\bin\Debug\netcoreapp3.1\PromotionEngine.runtimeconfig.dev.json
+D:\TTL Code\Promotion_Engine\PromotionEngine\bin\Debug\netcoreapp3.1\PromotionEngine.dll
+D:\TTL Code\Promotion_Engine\PromotionEngine\bin\Debug\netcoreapp3.1\PromotionEngine.pdb
+D:\TTL Code\Promotion_Engine\PromotionEngine\obj\Debug\netcoreapp3.1\PromotionEngine.csprojAssemblyReference.cache
+D:\TTL Code\Promotion_Engine\PromotionEngine\obj\Debug\netcoreapp3.1\PromotionEngine.AssemblyInfoInputs.cache
+D:\TTL Code\Promotion_Engine\PromotionEngine\obj\Debug\netcoreapp3.1\PromotionEngine.AssemblyInfo.cs
+D:\TTL Code\Promotion_Engine\PromotionEngine\obj\Debug\netcoreapp3.1\PromotionEngine.csproj.CoreCompileInputs.cache
+D:\TTL Code\Promotion_Engine\PromotionEngine\obj\Debug\netcoreapp3.1\PromotionEngine.dll
+D:\TTL Code\Promotion_Engine\PromotionEngine\obj\Debug\netcoreapp3.1\PromotionEngine.pdb
+D:\TTL Code\Promotion_Engine\PromotionEngine\obj\Debug\netcoreapp3.1\PromotionEngine.genruntimeconfig.cache
