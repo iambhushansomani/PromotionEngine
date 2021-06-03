@@ -24,7 +24,7 @@ namespace PromotionEngine.Test
         [TestCase("B", 30)]
         [TestCase("C", 20)]
         [TestCase("D", 15)]
-        public void IsPrime_InputIs1_ReturnFalse(string id,int expectedresult)
+        public void GetPriceByType(string id,int expectedresult)
         {
             var result = ProductService.GetPriceByType(id);
 
